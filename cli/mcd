@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+const { program } = require("commander");
+
+program.command("order", "Order some food");
+
+program.action(() => {
+  program.help();
+});
+
+program.parse(process.argv);

@@ -1,0 +1,10 @@
+{
+  "name": "mcd",
+  "version": "0.0.1",
+  "bin": {
+    "mcd": "cli/mcd"
+  },
+  "dependencies": {
+    "commander": "^5.1.0"
+  }
+}

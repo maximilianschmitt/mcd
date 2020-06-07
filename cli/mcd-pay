@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+const { program } = require("commander");
+
+program.action(() => {
+  console.log("Thank you for paying!");
+});
+
+program.parse(process.argv);
