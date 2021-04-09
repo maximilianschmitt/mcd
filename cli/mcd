@@ -2,6 +2,7 @@
 const { program } = require("commander");
 
 program.command("order", "Order some food");
+program.command("pay", "Pay for your order");
 
 program.action(() => {
   program.help();
